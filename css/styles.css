@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+}
+
+h1, h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  letter-spacing: 0.5rem;
+  padding: 8px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+header, footer {
+  text-align: center;
+}
+
+header {
+  background-color: #E6E6E6;
+}
+
+footer {
+  background-color: #005677;
+  color: #FFFFFF;
+}
+
+footer>*{
+  margin: 8px;
+  vertical-align: middle;
+}
+
+li{
+  margin: 8px;
+}
+
+li>span {
+  font-style: italic;
+}
+
+main {
+  margin-top: 120px;
+}
+
+p, li {
+  font-size: 15px;
+}
+
+span {
+  font-weight: bold;
+}
+
+section>p {
+  padding-left: 36px;
+}
+
+.textoIndentado {
+  text-indent: 75px;
+}
